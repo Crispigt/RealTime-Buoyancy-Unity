@@ -1,0 +1,3 @@
+C:/Users/felix/DH2323-WaveBuoyancy/NativePlugin/build/CMakeFiles/BuoyancyDLL.dir
+C:/Users/felix/DH2323-WaveBuoyancy/NativePlugin/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/felix/DH2323-WaveBuoyancy/NativePlugin/build/CMakeFiles/ZERO_CHECK.dir

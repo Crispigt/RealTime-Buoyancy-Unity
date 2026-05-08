@@ -1,0 +1,10 @@
+^C:\USERS\FELIX\DH2323-WAVEBUOYANCY\NATIVEPLUGIN\BUILD\CMAKEFILES\374D900689936C6976D3CD8A99DFCBDB\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/felix/DH2323-WaveBuoyancy/NativePlugin -BC:/Users/felix/DH2323-WaveBuoyancy/NativePlugin/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/felix/DH2323-WaveBuoyancy/NativePlugin/build/BuoyancyDLL.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
