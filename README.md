@@ -14,7 +14,7 @@ https://github.com/user-attachments/assets/0cdf0944-02fa-4a78-9991-8b227398369c
 
 ## Highlights
 
-- **Closed-form per-triangle buoyancy**,exact force and torque, no quadrature error, even on coarse meshes (Hirae et al. 2025, Eqs. 5–9).
+- **Closed-form per-triangle buoyancy**, exact force and torque, no quadrature error, even on coarse meshes (Hirae et al. 2025, Eqs. 5–9).
 - **Wave-agnostic C++ DLL** geometry-only; the wave model lives in C# so the plugin is reusable across wave systems.
 - **Adaptive Curved Clipping** refines per-vertex water heights along the clipping chord without geometric surface intersection. This was the project's main research contribution.
 - **Burst-compiled wave sampler** `IJobParallelFor` + `Unity.Mathematics`, ~6–10× speedup over plain C#.
@@ -62,10 +62,8 @@ https://github.com/user-attachments/assets/6adece10-8944-466a-9a49-3b4d31057bae
 |---|---|
 | ![Corrected formula settling at 26.565°.](report-assets/NewVideosAndPicture/A3Testing.png) | ![Printed formula settling at 45°.](report-assets/NewVideosAndPicture/A3TestingWrongFormula.png) |
 
-### Concept diagrams
-| Per-triangle force/torque | Adaptive clipping concept |
-|---|---|
-| ![Force and torque from hydrostatic pressure acting through the center of pressure.](report-assets/VideosAndPicturesFromBlog/Torque-Force5.PNG) | ![Straight chord (dashed) between clip points diverges from the true wave surface (blue curve); chord-aligned samples capture the curvature.](report-assets/VideosAndPicturesFromBlog/WaveSubdivided.png) |
+### Concept diagrams, Per-triangle force/torque 
+ ![Force and torque from hydrostatic pressure acting through the center of pressure.](report-assets/VideosAndPicturesFromBlog/Torque-Force5.PNG)
 
 ### `BuoyancyController` inspector
 ![Unity inspector showing density, angular momentum damping factor, adaptive toggle, and mesh simplification target.](report-assets/NewVideosAndPicture/BuoyancyController.png)
@@ -75,14 +73,6 @@ https://github.com/user-attachments/assets/6adece10-8944-466a-9a49-3b4d31057bae
 ## More videos
 
 All public clips live under [`report-assets/`](report-assets/). Click to download/play:
-
-| Clip | What it shows |
-|---|---|
-| [`BunnyDragonCube.mp4`](report-assets/VideosAndPicturesFromBlog/BunnyDragonCube.mp4) | All three object types together |
-| [`FullyFixed.mp4`](report-assets/VideosAndPicturesFromBlog/FullyFixed.mp4) | Final integrator settling correctly after the typo fix |
-| [`SomeObjectsFlat.mp4`](report-assets/NewVideosAndPicture/SomeObjectsFlat.mp4) | Mixed objects on near-flat water (steady-state) |
-| [`CatlikeWavesWorking.mp4`](report-assets/VideosAndPicturesFromBlog/CatlikeWavesWorking.mp4) | URP Gerstner wave shader running standalone |
-| [`opaque.mp4`](report-assets/VideosAndPicturesFromBlog/opaque.mp4) | Opaque variant of the water shader |
 
 ---
 
@@ -161,4 +151,8 @@ Christopher Peters and the DH2323 course team at KTH. Jasper Flick (Catlike Codi
 
 ## License
 
-Code in this repository is released under the MIT License unless noted otherwise. Third-party assets (Catlike Coding wave shader, GLM, UnityMeshSimplifier, Stanford bunny/dragon meshes) retain their respective licenses.
+Code in this repository is released under the MIT License; see [`LICENSE`](LICENSE).
+
+Original documentation, screenshots, videos, and report media by Felix Stenberg are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) unless noted otherwise.
+
+Third-party assets and dependencies (Catlike Coding wave shader, GLM, UnityMeshSimplifier, Stanford bunny/dragon meshes) retain their respective licenses.
