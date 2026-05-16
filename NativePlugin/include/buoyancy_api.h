@@ -18,9 +18,18 @@ extern "C" {
     BUOYANCY_API void ComputeBuoyancy(
         int handle,
         const float* transformMatrix,
-        const float* waveParams,
-        int algoChoice,
+        const float* vertexHeights,
+        int vertexHeightsCount,
         float* outForceTorque);
+
+    BUOYANCY_API void ComputeBuoyancyFromTriangles(
+        int handle,
+        const float* worldVertices,
+        const int* indices, 
+        int indexCount,
+        const float* vertexHeights,
+        float* outForceTorque,
+        float comWx, float comWy, float comWz);
 
     BUOYANCY_API void DestroyBuoyancyInstance(int handle);
 }

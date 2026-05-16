@@ -18,11 +18,22 @@ public static class NativeBridge
     public static extern void ComputeBuoyancy(
         int handle,
         float[] transformMatrix,
-        float[] waveParams,
-        int algoChoice,
+        float[] vertexHeights,
+        int vertexHeightsCount,
         float[] outForceTorque
         );
 
     [DllImport("BuoyancyDLL")]
     public static extern void DestroyBuoyancyInstance(int handle);
+
+    [DllImport("BuoyancyDLL")]
+    public static extern void ComputeBuoyancyFromTriangles(
+        int handle,
+        float[] worldVertices,
+        int[] indices,
+        int indexCount,
+        float[] vertexHeights,
+        float[] outForceTorque,
+        float comWx, float comWy, float comWz);
+
 }

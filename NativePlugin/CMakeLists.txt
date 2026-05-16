@@ -5,8 +5,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_library(BuoyancyDLL SHARED
     src/buoyancy_api.cpp
-    src/triangle_clipper.cpp
-    src/wave.cpp
+    
+    
 )
 
 target_include_directories(BuoyancyDLL PRIVATE

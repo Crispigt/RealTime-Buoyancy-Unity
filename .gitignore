@@ -1,3 +1,15 @@
 /resources/
-.vs/
 /FabiansCode/
+
+# Local editor and Python environment files
+.vs/
+.venv/
+
+# Unity generated files
+/BaseProject/[Ll]ibrary/
+/BaseProject/[Tt]emp/
+/BaseProject/[Oo]bj/
+/BaseProject/[Bb]uild/
+/BaseProject/[Bb]uilds/
+/BaseProject/[Ll]ogs/
+/BaseProject/[Uu]ser[Ss]ettings/

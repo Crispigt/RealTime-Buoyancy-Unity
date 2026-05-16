@@ -61,8 +61,19 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.4.1f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\AdaptiveClipper.cs" />
+    <Compile Include="Assets\Scripts\FPSLogger.cs" />
     <Compile Include="Assets\Scripts\BuoyancyController.cs" />
+    <Compile Include="Assets\Scripts\WaveManager.cs" />
     <Compile Include="Assets\Scripts\NativeBridge.cs" />
+    <Compile Include="Assets\Scripts\AccuracyTests.cs" />
+    <Compile Include="Assets\Scripts\WaveSampleJob.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Flow.cginc" />
+    <None Include="Assets\DirectionalFlow.shader" />
+    <None Include="Assets\DistortionFlow.shader" />
+    <None Include="Assets\Waves.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -895,6 +906,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Whinarn.UnityMeshSimplifier.Runtime.Player.csproj">
+      <Project>{8F60AB2D-D32B-301F-E433-ACF04D36F4CF}</Project>
+      <Name>Whinarn.UnityMeshSimplifier.Runtime.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
       <Project>{EC3029C2-BB77-4876-9318-0970E854E347}</Project>
       <Name>Unity.TextMeshPro.Player</Name>
@@ -923,6 +938,10 @@
       <Project>{1C5B5D04-B971-231E-3D41-583F6CA979B7}</Project>
       <Name>Unity.RenderPipelines.Universal.2D.Runtime.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Recorder.Base.Player.csproj">
+      <Project>{7459B713-1381-6DD8-97D3-9C8747FE4644}</Project>
+      <Name>Unity.Recorder.Base.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.Player.csproj">
       <Project>{764C3CC2-E103-DAD3-C38D-024CC1E61052}</Project>
       <Name>Unity.VisualScripting.Core.Player</Name>
@@ -935,9 +954,9 @@
       <Project>{3177D123-C0AD-11A2-549F-586534A5AB6A}</Project>
       <Name>Unity.Cinemachine.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player.csproj">
-      <Project>{05F7F2BF-D990-4B8F-E023-1533E3428847}</Project>
-      <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player</Name>
+    <ProjectReference Include="Unity.Recorder.Player.csproj">
+      <Project>{CDFFE5CD-3A65-0CF5-AF46-1781F7800A85}</Project>
+      <Name>Unity.Recorder.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.Player.csproj">
       <Project>{694EE166-155D-D29A-C059-CC3E36B55929}</Project>
@@ -946,6 +965,10 @@
     <ProjectReference Include="Unity.VisualScripting.Flow.Player.csproj">
       <Project>{577E5F50-3929-B1AD-6034-036A8A61DDBB}</Project>
       <Name>Unity.VisualScripting.Flow.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player.csproj">
+      <Project>{05F7F2BF-D990-4B8F-E023-1533E3428847}</Project>
+      <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.SurfaceCache.Runtime.Player.csproj">
       <Project>{8CFE6118-8ABD-91F5-DF31-9E34E9E55646}</Project>
@@ -990,6 +1013,10 @@
     <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.Player.csproj">
       <Project>{BEA5C23F-A1A5-083E-2F0B-843C57FC43B1}</Project>
       <Name>Unity.RenderPipelines.Universal.Runtime.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.Player.csproj">
+      <Project>{D5CD8A5D-C192-6F8B-B42D-454B33608562}</Project>
+      <Name>Unity.ProBuilder.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.Player.csproj">
       <Project>{B93037D8-6EDA-67FF-EEA2-217A6560E332}</Project>

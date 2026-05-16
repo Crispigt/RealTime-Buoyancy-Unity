@@ -375,7 +375,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemGroup>
     <ClCompile Include="C:\Users\felix\DH2323-WaveBuoyancy\NativePlugin\src\buoyancy_api.cpp" />
     <ClCompile Include="C:\Users\felix\DH2323-WaveBuoyancy\NativePlugin\src\triangle_clipper.cpp" />
-    <ClCompile Include="C:\Users\felix\DH2323-WaveBuoyancy\NativePlugin\src\wave.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\felix\DH2323-WaveBuoyancy\NativePlugin\build\ZERO_CHECK.vcxproj">

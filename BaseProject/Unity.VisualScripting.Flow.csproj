@@ -184,8 +184,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Runtime\VisualScripting.Flow\Framework\Collections\FirstItem.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Runtime\VisualScripting.Flow\IUnit.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Runtime\VisualScripting.Flow\Framework\Math\Vector2\Vector2DotProduct.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Runtime\VisualScripting.Flow\Framework\Events\Hierarchy\OnTransformParentChanged.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Runtime\VisualScripting.Flow\Dependencies\NCalc\ValueExpression.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Runtime\VisualScripting.Flow\Framework\Events\Hierarchy\OnTransformParentChanged.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Runtime\VisualScripting.Flow\Framework\Control\TryCatch.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Runtime\VisualScripting.Flow\Framework\Math\Vector2\Vector2Project.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Runtime\VisualScripting.Flow\Framework\Math\Scalar\ScalarSubtract.cs" />

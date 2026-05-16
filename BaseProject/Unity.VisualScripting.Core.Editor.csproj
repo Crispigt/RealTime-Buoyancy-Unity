@@ -264,8 +264,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Plugins\PluginUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Context\GraphContext.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Interface\Fonts\FontWeight.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Inspection\Primitives\DecimalInspector.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Meta\ProxyMetadata.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Inspection\Primitives\DecimalInspector.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Plugin\BoltCore.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Variables\InspectorVariableFieldAttributeInspector.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Inspection\Primitives\UshortInspector.cs" />
@@ -387,8 +387,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Platforms\MemberInfoStubWriter.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Descriptors\IDescription.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Inspection\Reflection\NamespaceInspector.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Inspection\InspectorAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Reflection\LooseAssemblyNameOption.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Inspection\InspectorAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Utilities\EditorSerializationUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Meta\MemberMetadata.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Dependencies\ReorderableList\ElementAdderMenu\ElementAdderMenuBuilder.cs" />
@@ -507,8 +507,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Utilities\Warning.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Inspection\EditorProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Plugins\PluginAcknowledgement.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Reflection\ParameterStringMode.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\ResourceProviders\IResourceProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Reflection\ParameterStringMode.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Reflection\EnumOption.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Inspection\Other\DictionaryAssetEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@8bed5ad90189\Editor\VisualScripting.Core\Analytics\HotkeyUsageAnalytics.cs" />

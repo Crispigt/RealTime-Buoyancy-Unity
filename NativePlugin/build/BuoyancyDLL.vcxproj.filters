@@ -7,9 +7,6 @@
     <ClCompile Include="C:\Users\felix\DH2323-WaveBuoyancy\NativePlugin\src\triangle_clipper.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\felix\DH2323-WaveBuoyancy\NativePlugin\src\wave.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\felix\DH2323-WaveBuoyancy\NativePlugin\CMakeLists.txt" />
