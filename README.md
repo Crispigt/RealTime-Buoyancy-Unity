@@ -145,24 +145,10 @@ The resulting DLL is consumed by Unity via `[DllImport]` in the buoyancy control
 
 Open [`BaseProject/`](BaseProject/) in **Unity 6.x** (URP). Press Play. Test scenes contain prefabs for the cube/bunny/dragon/sphere stress scenarios used in the report.
 
-### Report
-
-Local Markdown source: `resources/report.md` (ignored intentionally). Public media is read from `report-assets/`.
-
-```sh
-cd resources
-python -m venv .venv && source .venv/bin/activate   # or use existing .venv
-pip install -r requirements.txt   # pandoc / weasyprint deps as required by build_pdf.py
-python build_pdf.py
-```
-
----
 
 ## Documentation
 
-- **Final report draft:** `resources/report.md`, local deliverable draft, intentionally ignored.
-- **Project proposal and blog drafts:** local files under `resources/`, intentionally ignored.
-- **Public media:** [`report-assets/`](report-assets/), screenshots, videos, and generated plots used by this README and the report draft.
+Blog can be found at: https://crispigt.com/dh2323
 
 ---
 
