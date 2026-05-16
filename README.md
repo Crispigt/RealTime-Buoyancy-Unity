@@ -25,9 +25,9 @@ https://github.com/user-attachments/assets/0cdf0944-02fa-4a78-9991-8b227398369c
 
 ## Gallery
 
-### Bunny + dragon side-by-side
+### Cube + Bunny + dragon side-by-side
 
-https://github.com/user-attachments/assets/94ad15dc-22cf-4490-8de5-7faa51eedafe
+https://github.com/user-attachments/assets/1b3ab453-ee31-407c-a144-26f57436fcab
 
 ### Cube bobbing, damping in action
 
@@ -42,8 +42,7 @@ https://github.com/user-attachments/assets/6adece10-8944-466a-9a49-3b4d31057bae
 
 | Sub-triangle winding-order bug | Paper Eq. 7–9 typo (settles at 45° instead of 26.565°) |
 |---|---|
-| https://github.com/user-attachments/assets/9a35cc60-b630-49f2-92fa-6fcc3e815b20 | https://github.com/user-attachments/assets/49bce1f3-21c5-4b03-97ac-f12052b57b00 |
-
+| <video src="https://github.com/user-attachments/assets/9a35cc60-b630-49f2-92fa-6fcc3e815b20" controls="controls"></video> | <video src="https://github.com/user-attachments/assets/49bce1f3-21c5-4b03-97ac-f12052b57b00" controls="controls"></video> |
 ### Linear vs Adaptive clipping (debug gizmos)
 | Linear clipping | Adaptive curved clipping |
 |---|---|
