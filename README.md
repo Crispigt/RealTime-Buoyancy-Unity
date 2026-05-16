@@ -25,34 +25,28 @@ https://github.com/user-attachments/assets/0cdf0944-02fa-4a78-9991-8b227398369c
 
 ## Gallery
 
-### Multiple objects on waves
-https://github.com/user-attachments/assets/98aa4c4a-d2fa-4a0b-8ba9-1309b4323bb0
-
-
-> Cubes (linear clipping), bunny (adaptive N=4), dragon (linear), all driven by the same DLL integrator. Fallback: [`MultipleObjectsWave.mp4`](report-assets/NewVideosAndPicture/MultipleObjectsWave.mp4).
-
-
-
 ### Bunny + dragon side-by-side
-<video src="https://github.com/Crispigt/DH2323-WaveBuoyancy/raw/main/report-assets/VideosAndPicturesFromBlog/BunnyDragon.mp4" controls muted loop width="720"></video>
 
-> Mixed mesh complexity floating concurrently. Fallback: [`BunnyDragon.mp4`](report-assets/VideosAndPicturesFromBlog/BunnyDragon.mp4).
+https://github.com/user-attachments/assets/94ad15dc-22cf-4490-8de5-7faa51eedafe
 
 ### Cube bobbing, damping in action
-<video src="https://github.com/Crispigt/DH2323-WaveBuoyancy/raw/main/report-assets/VideosAndPicturesFromBlog/cubebobbing.mp4" controls muted loop width="640"></video>
 
-> Cube on calm Gerstner waves; angular momentum damping in steady state. Fallback: [`cubebobbing.mp4`](report-assets/VideosAndPicturesFromBlog/cubebobbing.mp4).
+https://github.com/user-attachments/assets/482b7696-d519-409c-b86e-d4ab08798bbc
+
 
 ### Angular damping coefficient sweep
-<video src="https://github.com/Crispigt/DH2323-WaveBuoyancy/raw/main/report-assets/NewVideosAndPicture/DampningDifferent.mp4" controls muted loop width="720"></video>
 
-> Sweep over α: α=1 leaves angular momentum unchanged, while smaller values damp more aggressively. Fallback: [`DampningDifferent.mp4`](report-assets/NewVideosAndPicture/DampningDifferent.mp4).
+https://github.com/user-attachments/assets/6adece10-8944-466a-9a49-3b4d31057bae
 
 ### Bug demos (the project's two most instructive failures)
 
 | Sub-triangle winding-order bug | Paper Eq. 7–9 typo (settles at 45° instead of 26.565°) |
 |---|---|
-| <video src="https://github.com/Crispigt/DH2323-WaveBuoyancy/raw/main/report-assets/VideosAndPicturesFromBlog/FirstBug-wrongorder.mp4" controls muted loop width="380"></video> | <video src="https://github.com/Crispigt/DH2323-WaveBuoyancy/raw/main/report-assets/VideosAndPicturesFromBlog/PapperEquation.mp4" controls muted loop width="380"></video> |
+| 
+https://github.com/user-attachments/assets/9a35cc60-b630-49f2-92fa-6fcc3e815b20
+ | 
+https://github.com/user-attachments/assets/49bce1f3-21c5-4b03-97ac-f12052b57b00
+ |
 | Fallback: [`FirstBug-wrongorder.mp4`](report-assets/VideosAndPicturesFromBlog/FirstBug-wrongorder.mp4) | Fallback: [`PapperEquation.mp4`](report-assets/VideosAndPicturesFromBlog/PapperEquation.mp4) |
 
 ### Linear vs Adaptive clipping (debug gizmos)
