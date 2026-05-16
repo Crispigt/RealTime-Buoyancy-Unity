@@ -6,7 +6,7 @@ A Unity + C++ implementation of Hirae et al. (2025)'s closed-form hydrostatic-pr
 > Final project for **KTH DH2323 Computer Graphics and Interaction**, by Felix Stenberg.
 
 
-![Demo](https://github.com/user-attachments/assets/0cdf0944-02fa-4a78-9991-8b227398369c)
+https://github.com/user-attachments/assets/0cdf0944-02fa-4a78-9991-8b227398369c
 
 
 
