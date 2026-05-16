@@ -6,9 +6,6 @@ using UnityEngine;
 /// Accuracy test runner for the buoyancy simulation.
 /// Attach to an empty GameObject in a dedicated test scene.
 /// Each test mode is selected from the inspector; hit Play to run.
-///
-/// OUTPUT: CSV-formatted lines prefixed with [TEST] — copy from
-/// the Unity console and paste into Excel / Python for plotting.
 /// </summary>
 public class AccuracyTests : MonoBehaviour
 {

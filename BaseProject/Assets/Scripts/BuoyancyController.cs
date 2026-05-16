@@ -351,7 +351,7 @@ public class BuoyancyController : MonoBehaviour
             Gizmos.DrawLine(b, c);
             Gizmos.DrawLine(c, a);
 
-            // --- Clip-point visualization for intersecting triangles ---
+            // Clip-point visualization for intersecting triangles 
             if (belowCount == 1 || belowCount == 2)
             {
                 DrawClipVisualization(a, b, c, ha, hb, hc, aBelow, bBelow, cBelow, wmGizmo, gizmoTime);
@@ -359,10 +359,7 @@ public class BuoyancyController : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Draws clip points, the linear waterline chord, clipped sub-triangles,
-    /// and (when adaptive is on) the refined waterline polyline with fan sub-triangles.
-    /// </summary>
+
     void DrawClipVisualization(
         Vector3 a, Vector3 b, Vector3 c,
         float ha, float hb, float hc,
@@ -424,16 +421,15 @@ public class BuoyancyController : MonoBehaviour
         Gizmos.color = Color.white;
         Gizmos.DrawLine(p1, p2);
 
-        // --- Draw the clipped sub-triangles that the DLL actually integrates ---
         Color subTriColor = new Color(1f, 0.2f, 0.2f, 1f); // red for sub-triangles
         Gizmos.color = subTriColor;
 
         if (!(adaptiveClipping && wm != null && refineSamples > 0))
         {
-            // Linear path: draw the simple clipped sub-triangle(s)
+            // Linear path draw the simple clipped sub-triangle(s)
             if (isOneBelow)
             {
-                // One sub-triangle: [below, p1, p2]
+                // One sub-triangle [below, p1, p2]
                 DrawTriangleWireframe(belowVert1, p1, p2);
             }
             else
@@ -445,7 +441,7 @@ public class BuoyancyController : MonoBehaviour
         }
         else
         {
-            // Adaptive path: build the polyline, then draw fan sub-triangles
+            // Adaptive path build the polyline, then draw fan sub-triangles
             // Build the polygon vertices along the chord (same as AdaptiveClipper)
             var polyline = new System.Collections.Generic.List<Vector3>();
             var waveHeights = new System.Collections.Generic.List<float>();
@@ -520,9 +516,6 @@ public class BuoyancyController : MonoBehaviour
         Gizmos.DrawLine(v2, v0);
     }
 
-    /// <summary>
-    /// Same linear edge clip as the DLL / AdaptiveClipper, for gizmo use.
-    /// </summary>
     static bool TryClipEdge(Vector3 below, Vector3 above, float hBelow, float hAbove,
         out Vector3 p, out float hp)
     {

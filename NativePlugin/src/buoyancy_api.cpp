@@ -126,14 +126,6 @@ extern "C" { // To not mangle names.
             obj->transformedVertices[i] = glm::vec3(worldPos);
         }
 
-        // So now I have everything in world space, then we check for each 
-        // triangle if they're y value is below water, right now 0 but later
-        // replaced with function to get the water height at the point
-
-        // A triangle is a tripplet of indexes, each index points to vertices
-        // in the triangle
-        // Move out to own function
-
         // Transform com to world space
         glm::vec3 comWorld = glm::vec3(m * glm::vec4(obj->com, 1.0f));
 

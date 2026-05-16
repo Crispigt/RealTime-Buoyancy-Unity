@@ -1,8 +1,6 @@
 using UnityEngine;
 
-/// <summary>
 /// Simple script to log average FPS to the console every second.
-/// </summary>
 public class FPSLogger : MonoBehaviour
 {
     private int frameCount = 0;

@@ -115,13 +115,6 @@ public static class AdaptiveClipper
     // from these per-vertex heights, so this turns the straight chord-segment of the
     // wet polygon into a piecewise-linear height profile that follows the wave.
     //
-    // The asymmetry fix: we add samples unconditionally, not only on sign flips.
-    //   * Crest over chord (hr > r.y): sub-triangles near chord get extra depth →
-    //     positive correction, capturing the "missing wet area" outside the chord.
-    //   * Trough under chord (hr < r.y): sub-triangles near chord get negative depth →
-    //     accumulateBuoyancy emits a NEGATIVE contribution, cancelling the spurious
-    //     wet area we kept inside the chord. Same closed-form, opposite sign.
-    //
     // Skipped silently if wm == null or N == 0 (linear path).
     static void AppendRefinedSamples(
         Vector3 p1, Vector3 p2, WaveManager wm, float t, int refineSamples)
@@ -161,7 +154,7 @@ public static class AdaptiveClipper
         }
     }
 
-    // Fully submerged passthrough — emit the original triangle into the scratch mesh.
+    // Fully submerged passthrough, emit the original triangle into the scratch mesh.
     static void EmitTriangle(
         Vector3 a, Vector3 b, Vector3 c,
         float ha, float hb, float hc,
