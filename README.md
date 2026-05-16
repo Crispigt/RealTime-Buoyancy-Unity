@@ -26,9 +26,12 @@ https://github.com/user-attachments/assets/0cdf0944-02fa-4a78-9991-8b227398369c
 ## Gallery
 
 ### Multiple objects on waves
-<video src="https://github.com/Crispigt/DH2323-WaveBuoyancy/raw/main/report-assets/NewVideosAndPicture/MultipleObjectsWave.mp4" controls muted loop width="720"></video>
+https://github.com/user-attachments/assets/98aa4c4a-d2fa-4a0b-8ba9-1309b4323bb0
+
 
 > Cubes (linear clipping), bunny (adaptive N=4), dragon (linear), all driven by the same DLL integrator. Fallback: [`MultipleObjectsWave.mp4`](report-assets/NewVideosAndPicture/MultipleObjectsWave.mp4).
+
+
 
 ### Bunny + dragon side-by-side
 <video src="https://github.com/Crispigt/DH2323-WaveBuoyancy/raw/main/report-assets/VideosAndPicturesFromBlog/BunnyDragon.mp4" controls muted loop width="720"></video>
