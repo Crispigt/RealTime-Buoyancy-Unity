@@ -5,10 +5,7 @@ A Unity + C++ implementation of Hirae et al. (2025)'s closed-form hydrostatic-pr
 
 > Final project for **KTH DH2323 Computer Graphics and Interaction**, by Felix Stenberg.
 
-<p align="center">
-  <video src="https://github.com/Crispigt/DH2323-WaveBuoyancy/raw/main/report-assets/NewVideosAndPicture/MultipleObjectsWave.mp4" controls muted loop width="720"></video>
-</p>
-
+https://github.com/user-attachments/assets/0cdf0944-02fa-4a78-9991-8b227398369c
 
 ---
 
