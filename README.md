@@ -40,7 +40,7 @@ https://github.com/user-attachments/assets/6adece10-8944-466a-9a49-3b4d31057bae
 
 ### Bug demos (the project's two most instructive failures)
 
-| Sub-triangle winding-order bug | Paper Eq. 7–9 typo (settles at 45° instead of 26.565°) |
+| Sub-triangle winding-order bug | Paper Eq. 7–9 typo |
 |---|---|
 | <video src="https://github.com/user-attachments/assets/9a35cc60-b630-49f2-92fa-6fcc3e815b20" controls="controls"></video> | <video src="https://github.com/user-attachments/assets/49bce1f3-21c5-4b03-97ac-f12052b57b00" controls="controls"></video> |
 ### Linear vs Adaptive clipping (debug gizmos)
