@@ -7,6 +7,10 @@ A Unity + C++ implementation of Hirae et al. (2025)'s closed-form hydrostatic-pr
 
 https://github.com/user-attachments/assets/0cdf0944-02fa-4a78-9991-8b227398369c
 
+![short_demo_640x480](https://github.com/Crispigt/DH2323-WaveBuoyancy/raw/main/report-assets/NewVideosAndPicture/MultipleObjectsWave.mp4)
+
+
+
 ---
 
 ## Highlights
