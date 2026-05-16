@@ -120,38 +120,6 @@ Plots live in [`report-assets/plots/`](report-assets/plots/) and are regenerated
 
 ---
 
-## Repository layout
-
-```
-DH2323-WaveBuoyancy/
-├── BaseProject/                  Unity project (URP, Unity 6.x)
-│   └── Assets/...                Scenes, controllers, water shader
-├── FabiansCode/                  Reference implementation (Fábián 2025) for comparison
-│   ├── FloatingMesh.cs
-│   └── SubmergedPartCalculator.cs
-├── NativePlugin/                 C++ DLL, wave-agnostic buoyancy integrator
-│   ├── CMakeLists.txt
-│   ├── include/
-│   │   ├── buoyancy_api.h        P/Invoke surface
-│   │   └── triangle_clipper.h
-│   ├── src/
-│   │   ├── buoyancy_api.cpp      Hirae closed-form integrator (corrected Eqs. 5–9)
-│   │   └── triangle_clipper.cpp  Bitmask classification + linear clipping
-│   └── lib/                      GLM (submodule)
-├── report-assets/                Tracked public report/README media
-│   ├── NewVideosAndPicture/      Newly captured screenshots & videos
-│   ├── VideosAndPicturesFromBlog/ Earlier captures used in blog posts
-│   ├── pictures/                 Report screenshots
-│   └── plots/                    Generated test plots (force, tilt, convergence, stress)
-└── resources/                    Local ignored report workspace
-  ├── report.md                 Final report draft
-  ├── resultsTests/             Raw test data (A1.md, A3.md, A6.md, ...)
-  ├── plot_tests.py             Regenerates accuracy plots into report-assets/plots/
-  ├── plot_performance.py       Regenerates stress-test FPS plot into report-assets/plots/
-  └── build_pdf.py              Renders report.md → PDF
-```
-
----
 
 ## Building
 
