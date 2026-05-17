@@ -1,4 +1,4 @@
-# DH2323-WaveBuoyancy
+# RealTime-Buoyancy-Unity
 
 **Real-Time Surface-Pressure Buoyancy with Adaptive Curved Clipping**
 A Unity + C++ implementation of Hirae et al. (2025)'s closed-form hydrostatic-pressure integrator, with a custom *Adaptive Curved Clipping* refinement for coarse meshes on Gerstner waves.
