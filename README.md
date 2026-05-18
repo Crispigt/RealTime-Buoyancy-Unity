@@ -140,7 +140,7 @@ Blog can be found at: https://crispigt.com/dh2323
 - **Fábián, G.** (2025). *Approximate and exact buoyancy calculation for real-time floating simulation of meshes.* Eurographics 2025 Short Paper.
 - **Flick, J.** (2024). *Waves, Catlike Coding.* https://catlikecoding.com/unity/tutorials/flow/waves/ (MIT)
 - **Garland, M. & Heckbert, P.** (1997). *Surface simplification using quadric error metrics.* SIGGRAPH '97.
-- **Igarashi, T. & Nakamura, R.** (2007). *The equilibrium angles of floating cubes.*
+- **Igarashi, T. & Nakamura, H.** (2007). *The equilibrium angles of floating cubes.*
 - **Hwang, W. & Salvendy, G.** (2010). *Number of people required for usability evaluation: the `10 ± 2` rule.* CACM 53(5), 130–133.
 
 ---

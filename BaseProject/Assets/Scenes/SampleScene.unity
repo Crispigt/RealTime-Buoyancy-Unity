@@ -220,9 +220,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WaveManager
   waterMaterial: {fileID: 2100000, guid: eb140b4c1e79e460ebbee382fbd79287, type: 2}
-  waveA: {x: 1, y: 0, z: 0.25, w: 60}
-  waveB: {x: 1, y: 0.6, z: 0.25, w: 31}
-  waveC: {x: 1, y: 1.3, z: 0.25, w: 18}
+  waveA: {x: 1, y: 0, z: 0, w: 60}
+  waveB: {x: 1, y: 0.6, z: 0, w: 31}
+  waveC: {x: 1, y: 1.3, z: 0, w: 18}
   sampleIterations: 2
 --- !u!4 &71930410
 Transform:

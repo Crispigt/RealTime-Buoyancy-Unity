@@ -462,15 +462,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 052095ab950222a43ac332a6c4757d55, type: 3}
       propertyPath: m_LocalScale.x
-      value: 10
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 052095ab950222a43ac332a6c4757d55, type: 3}
       propertyPath: m_LocalScale.y
-      value: 10
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 052095ab950222a43ac332a6c4757d55, type: 3}
       propertyPath: m_LocalScale.z
-      value: 10
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 052095ab950222a43ac332a6c4757d55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -534,7 +534,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 052095ab950222a43ac332a6c4757d55, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7267583086349385398, guid: 052095ab950222a43ac332a6c4757d55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -819,9 +819,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WaveManager
   waterMaterial: {fileID: 2100000, guid: eb140b4c1e79e460ebbee382fbd79287, type: 2}
-  waveA: {x: 1, y: 0, z: 0.25, w: 60}
-  waveB: {x: 1, y: 0.6, z: 0.25, w: 31}
-  waveC: {x: 1, y: 1.3, z: 0.25, w: 18}
+  waveA: {x: 1, y: 0, z: 0, w: 60}
+  waveB: {x: 1, y: 0.6, z: 0.5, w: 2}
+  waveC: {x: 1, y: 1.3, z: 0, w: 18}
   sampleIterations: 4
 --- !u!4 &1249766155
 Transform:
@@ -848,15 +848,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 052095ab950222a43ac332a6c4757d55, type: 3}
       propertyPath: m_LocalScale.x
-      value: 10
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 052095ab950222a43ac332a6c4757d55, type: 3}
       propertyPath: m_LocalScale.y
-      value: 10
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 052095ab950222a43ac332a6c4757d55, type: 3}
       propertyPath: m_LocalScale.z
-      value: 10
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 052095ab950222a43ac332a6c4757d55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -920,7 +920,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 052095ab950222a43ac332a6c4757d55, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7267583086349385398, guid: 052095ab950222a43ac332a6c4757d55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -989,9 +989,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af60a73ec4b20944f9688322c644f647, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AccuracyTests
-  mode: 4
-  target: {fileID: 1293266025}
-  targetRb: {fileID: 1293266023}
+  mode: 2
+  target: {fileID: 241189459}
+  targetRb: {fileID: 241189460}
   waterY: 0
   sweepStart: 0.6
   sweepEnd: -0.6
@@ -1109,15 +1109,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 052095ab950222a43ac332a6c4757d55, type: 3}
       propertyPath: m_LocalScale.x
-      value: 10
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 052095ab950222a43ac332a6c4757d55, type: 3}
       propertyPath: m_LocalScale.y
-      value: 10
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 052095ab950222a43ac332a6c4757d55, type: 3}
       propertyPath: m_LocalScale.z
-      value: 10
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 052095ab950222a43ac332a6c4757d55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1181,7 +1181,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 052095ab950222a43ac332a6c4757d55, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7267583086349385398, guid: 052095ab950222a43ac332a6c4757d55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1231,15 +1231,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 052095ab950222a43ac332a6c4757d55, type: 3}
       propertyPath: m_LocalScale.x
-      value: 10
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 052095ab950222a43ac332a6c4757d55, type: 3}
       propertyPath: m_LocalScale.y
-      value: 10
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 052095ab950222a43ac332a6c4757d55, type: 3}
       propertyPath: m_LocalScale.z
-      value: 10
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 052095ab950222a43ac332a6c4757d55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1299,7 +1299,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 052095ab950222a43ac332a6c4757d55, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7267583086349385398, guid: 052095ab950222a43ac332a6c4757d55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1351,6 +1351,9 @@ GameObject:
   - component: {fileID: 1813111970}
   - component: {fileID: 1813111969}
   - component: {fileID: 1813111968}
+  - component: {fileID: 1813111974}
+  - component: {fileID: 1813111973}
+  - component: {fileID: 1813111972}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -1445,12 +1448,85 @@ Transform:
   m_GameObject: {fileID: 1813111967}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.36891, y: 14.23305, z: 1.71329}
+  m_LocalPosition: {x: 3.36891, y: 5.13, z: 1.71329}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &1813111972
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813111967}
+  serializedVersion: 5
+  m_Mass: 250
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &1813111973
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813111967}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1813111974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813111967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8709071347e53044786ba7b32b8c044c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BuoyancyController
+  buoyancyMesh: {fileID: 0}
+  adaptiveClipping: 0
+  refineSamples: 0
+  rho: 1000
+  gravity: 9.81
+  angularAlpha: 0.98
+  linearDrag: 3
+  targetBuoyancyTriangles: 1000
+  showDebug: 0
+  normalLength: 0.15
+  forceScale: 0.01
+  logEquilibrium: 0
 --- !u!1 &1881511064
 GameObject:
   m_ObjectHideFlags: 0
