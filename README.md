@@ -48,7 +48,7 @@ https://github.com/user-attachments/assets/6adece10-8944-466a-9a49-3b4d31057bae
 |---|---|
 | ![Linear clipping gizmo: green = dry, blue = submerged, orange = intersecting, white = straight chord.](report-assets/NewVideosAndPicture/GizmoNoClipping.png) | ![Adaptive clipping gizmo: magenta line + yellow dots = chord refinement samples; green vertical lines = depth correction at each sample.](report-assets/NewVideosAndPicture/GizmoClipping.png) |
 
-### Mesh simplification (Garland–Heckbert)
+### Mesh simplification (Garland–Heckbert, https://github.com/whinarn/unitymeshsimplifier) 
 | 30,000-triangle ground truth | Roughly 7k-triangle buoyancy mesh |
 |---|---|
 | ![Full bunny mesh used as ground truth in convergence tests.](report-assets/VideosAndPicturesFromBlog/FullmeshBunny.png) | ![Decimated bunny used for runtime buoyancy.](report-assets/VideosAndPicturesFromBlog/LowmeshBunny.png) |
