@@ -124,7 +124,7 @@ The resulting DLL is consumed by Unity via `[DllImport]` in the buoyancy control
 
 ### Unity project
 
-Open [`BaseProject/`](BaseProject/) in **Unity 6.x** (URP). Press Play. Test scenes contain prefabs for the cube/bunny/dragon/sphere stress scenarios used in the report.
+Open [`BaseProject/`](BaseProject/) in **Unity 6.x** (URP). Ensure the Read/Write property is enabled in import settings for any mesh used for buoyancy. Press Play. Test scenes contain prefabs for the cube/bunny/dragon/sphere stress scenarios used in the report.
 
 
 ## Documentation
